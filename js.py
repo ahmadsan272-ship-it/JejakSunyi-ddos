@@ -7,11 +7,14 @@ import numpy as np
 from datetime import datetime
 import os
 
+#color
+YELLOW ("033[33m
+
 # Clear screen
 os.system('cls' if os.name == 'nt' else 'clear')
 
-# ASCII Logo
-LOGO = """
+os.system('clear')
+print('''
 \033[92m
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 ▒▒▒┌───╮▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒╭╮▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
